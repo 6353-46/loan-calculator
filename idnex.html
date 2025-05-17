@@ -1,2 +1,35 @@
-<h1>this is heading tag
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emi-calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="cont">
+          <h1 class="heading">loan calculator </h1>
+        <form>
+            <p>enter loan amount </p>
+            <input id="amount" type="number" name="loan-amount" placeholder="etner the amount" class="input-formating"   min="0" max="100000000">
+            <p>enter interest rate</p>
+           <div>
+            <span>
+               <input id="irate" type="number" name="loan-rate" value="0" class="input-formating" min="0">  
+            </span>
+            </div>
+            <p>enter the loan period</p>
+            <input id = "time" type="number" name="loan-time" value="0" class="input-formating" >
+            <button class = "calculate">calculate </button>
+            <div class="result">result :  </div>
+           
+        </form>
+    <script src="script.js"></script>
+    </div>
+</body>
+
+
+</html>
